@@ -60,6 +60,7 @@ public enum MoneyConverters {
     HINDI_BANKING_MONEY_VALUE(Container.hindiContainer().getBankingMoneyConverter()),
     SWEDISH_BANKING_MONEY_VALUE(swedishContainer().getBankingMoneyConverter()),
     JAPANESE_BANKING_MONEY_VALUE(japaneseKanjiContainer().getBankingMoneyConverter());
+    GREEK_BANKING_MONEY_VALUE(greekContainer().getBankingMoneyConverter());
 
     private final BigDecimalToStringConverter converter;
 
